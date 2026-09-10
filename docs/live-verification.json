@@ -1,13 +1,13 @@
 {
-  "verified_at": "2026-09-10T14:36:47.653Z",
+  "verified_at": "2026-09-10T15:06:15.662Z",
   "provider": "openrouter",
   "configured_model": "deepseek/deepseek-v4-flash-0731",
   "entry_id": 1,
-  "summary": "The product team reviewed the customer onboarding pilot and found users liked the checklist but struggled to find the document upload button. They agreed to improve button visibility and simplify help text before the next pilot, with Priya preparing design changes by Friday and support collecting feedback from new testers. No launch date has been confirmed.",
+  "summary": "The product team reviewed the customer onboarding pilot, finding the checklist helpful but noting users struggled to locate the document upload button. They agreed to make the button more visible and simplify help text, with Priya preparing design changes by Friday and support collecting feedback from the next pilot group; no launch date is set.",
   "tags": [
-    "product review",
-    "onboarding",
-    "UX design"
+    "onboarding pilot",
+    "UI design",
+    "customer feedback"
   ],
   "browser_submit_reload_and_detail": true,
   "note": "Real provider response to the built-in synthetic sample; not a fixture."

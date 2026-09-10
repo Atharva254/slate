@@ -158,8 +158,8 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <a className="brand" href="/" aria-label="Briefly home">
-          BRIEFLY
+        <a className="brand" href="/" aria-label="Slate home">
+          SLATE
         </a>
       </header>
       <main>
@@ -376,7 +376,7 @@ export default function App() {
         </section>
       </main>
       <footer>
-        <span>Briefly · AI Content Assistant</span>
+        <span>Slate · AI Content Assistant</span>
       </footer>
     </div>
   );

@@ -1,4 +1,4 @@
-# Briefly — Small AI Content Assistant
+# Slate — Small AI Content Assistant
 
 React + Python/FastAPI + SQLite + interchangeable LLM providers (OpenRouter or direct Gemini). Submit text, get a concise summary and exactly three tags, and reopen saved originals.
 

@@ -10,7 +10,7 @@ The assignment is an IIFL Finance 2–3 hour prototype exercise. Keep scope smal
 - Desktop and mobile screenshots: visually inspected; no horizontal overflow or clipped content found.
 - Python test tooling emitted two upstream deprecation warnings (Starlette/httpx and AnyIO); tests passed. No global packages were upgraded.
 - Real OpenRouter generation: **verified** with `deepseek/deepseek-v4-flash-0731`; browser submit/save/reload/detail and exactly three relevant tags passed. The summary preserved the pilot decisions, Friday deadline, and unconfirmed launch date. See `live-verification.json` and the refreshed `screenshot.png`. Direct Gemini remains fixture-tested only.
-- GitHub's unauthenticated repository API confirmed [Atharva254/briefly](https://github.com/Atharva254/briefly) is public. `.env.example` contains configuration names with blank values; `.env` and SQLite files are ignored. No OpenRouter/Gemini credential patterns were found in tracked files (a targeted scan, not a guarantee covering every possible secret).
+- GitHub's unauthenticated repository API confirmed [Atharva254/slate](https://github.com/Atharva254/slate) is public. `.env.example` contains configuration names with blank values; `.env` and SQLite files are ignored. No OpenRouter/Gemini credential patterns were found in tracked files (a targeted scan, not a guarantee covering every possible secret).
 
 ## Additional provider check on 10 September 2026
 
@@ -41,7 +41,7 @@ The assignment is an IIFL Finance 2–3 hour prototype exercise. Keep scope smal
 | Setup, six concise README answers | `README.md` |
 | No committed credentials | Names-only `.env.example`, `.gitignore` |
 | Screenshot of working flow | `docs/screenshot.png`: actual OpenRouter output; separate fixture evidence is labelled |
-| Public repository | `main` published at [Atharva254/briefly](https://github.com/Atharva254/briefly) |
+| Public repository | `main` published at [Atharva254/slate](https://github.com/Atharva254/slate) |
 
 ## Repeat live verification (requires the selected provider key)
 
