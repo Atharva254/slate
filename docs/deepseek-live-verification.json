@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-10T13:15:09Z",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "result": {
+    "health_status": 200,
+    "create_status": 201,
+    "detail_status": 200,
+    "list_total": 1,
+    "exactly_three_distinct_tags": true,
+    "persisted_after_fresh_app_instance": true
+  },
+  "scope": "Synthetic input, real provider request, temporary SQLite database; no API key recorded."
+}
