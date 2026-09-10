@@ -5,13 +5,13 @@ React + Python/FastAPI + SQLite + interchangeable LLM providers (OpenRouter or d
 
 ## Run locally
 
-Requires Python 3.11+ and Node.js 22.12+ (or 20.19+). 
+Requires Python 3.11+ and Node.js 22.12+ (or 20.19+).
 
 From the repository root:
 ```powershell
 python -m venv .venv
 .venv\Scripts\python -m pip install -r backend/requirements.lock.txt
-Copy-Item .env.example .env 
+Copy-Item .env.example .env
 # First setup only; preserve an existing .env.
 # Set OPENROUTER_API_KEY in .env, or in the backend's environment.
 # LLM_PROVIDER defaults to openrouter; LLM_MODEL to deepseek/deepseek-v4-flash-0731.
@@ -60,8 +60,8 @@ Only committed entries appear in the UI; no database transaction spans the AI ca
 
 Kept the option open for multiple LLM providers with two sample implementations – openrouter and gemini
 OpenRouter configured with `deepseek/deepseek-v4-flash-0731`.
-We chose DeepSeek V4 Flash through OpenRouter because it is a lightweight, fast, and cost-efficient model that is reliable enough for a focused summarization task. 
-It supports structured JSON output, which helps the backend consistently receive one concise summary and exactly three tags. 
+We chose DeepSeek V4 Flash through OpenRouter because it is a lightweight, fast, and cost-efficient model that is reliable enough for a focused summarization task.
+It supports structured JSON output, which helps the backend consistently receive one concise summary and exactly three tags.
 For this prototype, it offers a sensible balance of response quality, latency, and cost without adding unnecessary model complexity.
 
 `LLM_PROVIDER` and `LLM_MODEL` select the adapter and model. Direct Gemini remains available as an alternate option.
@@ -94,4 +94,4 @@ Production needs approved provider terms, data minimization/redaction, access co
 OpenAI Codex helped with requirement analysis, implementation, tests, and documentation.
 Generated code was reviewed for secret handling, prompt boundaries, SQL parameters, validation, and failure semantics.
 Automated checks cover the API/provider boundary and persistence across app instances; the frontend is built and browser-tested.
-A separate live browser check verified OpenRouter and Gemini integrations for end-to-end testing.
+A separate live browser check verified the OpenRouter integration; Gemini remains covered by fixture tests.
